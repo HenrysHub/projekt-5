@@ -13,6 +13,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 * [Github](https://www.github.com/HenrysHub/projekt-5/) - Kasutame GitHubi ülesande lisamiseks ja haldamiseks.
 * [Microsoft Teams](https://teams.microsoft.com/) - Suhtlemine ning info jagamine.
 * [Visual Studio](https://code.visualstudio.com/) - Koodi kirjutamine.
-* [Toggl](https://www.toggl.com/) - Aja jälgimine
+* [Toggl](https://www.toggl.com/) - Aja jälgimine.
+* [Gimp](https://www.gimp.org/) - Logo disainimine.
 
 # Kasutatud allikad 
