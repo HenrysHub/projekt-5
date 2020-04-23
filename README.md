@@ -9,7 +9,7 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 
 
 # Mida me kasutasime tarkvara loomiseks?
-* [Figma](https://www.figma.com/) - Veebilehe disanimine
+* [Figma](https://www.figma.com/file/TfZOgzt2RTxyZuPq2Wanio/projket-5?node-id=1%3A2) - Veebilehe disanimine
 * [Github](https://www.github.com/HenrysHub/projekt-5/) - Kasutame GitHubi ülesande lisamiseks ja haldamiseks.
 * [Microsoft Teams](https://teams.microsoft.com/) - Suhtlemine ning info jagamine.
 * [Visual Studio](https://code.visualstudio.com/) - Koodi kirjutamine.
