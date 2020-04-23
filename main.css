@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #E2F8FF;
+  margin: 0;
+  padding: 0;
+  background-color: #E2F8FF;
 }
 
 body a {
@@ -9,25 +9,25 @@ body a {
 }
 
 .sidenav {
-    height: 100%;
-    width: 230px;
-    position: relative;
-    margin: 0 auto;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #BDEAF9;
+  height: 100%;
+  width: 230px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #BDEAF9;
     
   }
 
 .sidenav_background {
-    height: 100%;
-    width: 240px;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    background-color: #7CD4F0;
-    display: flex;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #7CD4F0;
+  display: flex;
 }
 
 .sidenav a {
@@ -40,52 +40,78 @@ body a {
 }
 
 .topnav{
-    height: 110px;
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    z-index: 1;
-    top: 0;
-    background-color: #7CD4F0;
+  height: 110px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  top: 0;
+  background-color: #7CD4F0;
 }
 
 .info {
-    display: inline-block;
-    margin-bottom: 0px;
-    position: relative;
-    bottom: 40px; 
-    margin-left: 120px;
+  display: inline-block;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 40px; 
+  margin-left: 120px;
+}
+
+.info a {
+  text-decoration: none;
 }
 
 .main {
-    margin-left: 55px;
-    font-size: 28px;
-    padding: 0px 10px;
+  margin-left: 55px;
+  font-size: 28px;
+  padding: 0px 10px;
   }
 .main a {
-    margin-left: 100px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
+  margin-left: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
 }
   
 .buttons {
-    margin-left: 260px;
-    margin-top: 20px;
+  margin-left: 260px;
+  margin-top: 20px;
 }
 
 .buttons button {
-    background-color: #BDEAF9;
-    color: #016FAC;
-    border: transparent;
-    height: 150px;
-    width: 400px;
-    font-size: 25px;
-    position: fixed;
+  background-color: #BDEAF9;
+  color: #016FAC;
+  border: transparent;
+  height: 150px;
+  width: 400px;
+  font-size: 25px;
+  position: fixed;
 }
 
 .button2 {
-    margin-left: 425px;
-    background: url(assets/plussymbol.png) no-repeat center;
+  margin-left: 425px;
+  background: url(assets/plussymbol.png) no-repeat center;
+}
+
+.searchbar {
+  background-color: #E2F8FF;
+  border: transparent;
+  text-align: center;
+  font-size: 25px;
+  height: 55px;
+  width: 225px;
+}
+
+::placeholder { 
+  color: #016FAC;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { 
+  color: #016FAC;
+}
+
+::-ms-input-placeholder { 
+  color: #016FAC;
 }
