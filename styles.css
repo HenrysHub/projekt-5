@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E2F8FF;
+  }
+  
+  body a {
+    color: #016FAC;
+  }
+  
+  .sidenav {
+    height: 32.55em;
+    width: 20%;
+    background-color: #BDEAF9;
+    border-right: 0.625em solid #7CD4F0;
+      
+    }
+  
+  .sidenav a {
+    padding: 0.375em 0.5em 0.375em 1em;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5625em;
+    display: block;
+    text-align: center;
+    margin-top: 1.25em;
+  }
+  
+  .main {
+    display: flex;
+    background-color: #7CD4F0;
+    }
+
+    .logo{
+        margin-left: 3em;
+        width: 30%;
+    }
+
+  .title {
+    width: 70%;
+    display: flex;    
+  }
+
+  .title h1{
+    justify-content: center;
+    margin-left: 5em;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+    font-size: 2.6em;
+  }
+
+  .links{
+      display: flex;
+  }
+  #valik{
+    display: flex;
+    flex-direction: column;
+    height: 16em;
+    width: 40%;
+    margin-left: 3em;
+    margin-top: 2em;
+    font-size: 25px;
+    border: 0.1em solid darkblue;
+    border-radius: 0.5em;
+    padding: 0.8em;
+  }
+
+  #valik a{
+      text-decoration: none;
+      margin-bottom: 0.3em;
+  }
+
+  h2{
+      font-size: 1em;
+      font-family: 'Cuprum', sans-serif;
+  }
+
+  #hotkey{
+    display: flex;
+    flex-direction: column;
+    height: 16em;
+    width: 40%;
+    margin-left: 4em;
+    margin-right: 3em;
+    margin-top: 2em;
+    font-size: 25px;
+    border: 0.1em solid darkblue;
+    border-radius: 0.5em;
+    padding: 0.8em;
+  }
+
+  #hotkey a{
+    text-decoration: none;
+    margin-bottom: 0.3em;  
+  }
+
+  .quiz{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      padding: 2em;
+      align-items: center;
+  }
+
+  #submit{
+      width: 25%;
+      height: 15%;
+      align-content: center;
+      border: 0.1em solid darkgrey;
+      border-radius: 0.5em;
+      font-family: 'Cuprum', sans-serif;
+      font-size: 1.2em;
+      font-weight: bold;
+  }
+
+  #test{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+  }
+
+  .qa{
+      font-size: 1.2em;
+      justify-content: center;
+      width: 45%;
+      margin-bottom: 1.5em;
+      margin-right: 1em;
+      background-color: lightblue;
+      border-radius: 0.5em;
+      padding: 0.5em;
+      font-family: 'Cuprum', sans-serif;
+  }
+
+  .question{
+      margin-bottom: 1.2em;
+  }
+
+  .answers label{
+      margin-right: 1em;
+  }
+
+  #results{
+      padding: 1em;
+      margin-top: 3em;
+      font-family: 'Bangers', cursive;
+      font-size: 2em;
+      color: blue;
+  }
