@@ -1,6 +1,6 @@
 <?php 
-    $fileName = "quiz.json";
-    $myTest = file_get_contents("./".$fileName);
+    $fileName = $_REQUEST['link'];
+    $myTest = file_get_contents("./json_files/valikvastused/".$fileName);
     $json = json_decode($myTest);
 
 ?>
@@ -9,20 +9,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@1&display=swap" rel="stylesheet">
+    <title>Valikvastustega testid</title>
 </head>
 <body>
+<div class="content">
 
-    <div id="test"></div>
-    <button id="submit">Kontrolli vastuseid</button>
-    <div id="results"></div>
+        <header class="main">
+            <div class="logo">
+                <img src="../assets/logo.png" height="100" width="100">
+            </div>
+            <div class="title">
+                <h1>Driller</h1>
+            </div>
+        </header>
+
+        <div class="links">
+
+            <div class="sidenav">
+                <a href="../">Tagasi esilehele</a>
+                <a href="#">Ajalugu</a>
+            </div>
+
+            <div class="quiz">
+                <div id="test"></div>
+                <button id="submit">Kontrolli vastuseid</button>
+                <div id="results"></div>
+            </div>
+
+        </div>
+
+    </div>
 
 <script>
     const quizContainer = document.getElementById('test');
     const resultsContainer = document.getElementById('results');
     const submitButton = document.getElementById('submit');
     const myQuestions = <?php echo $myTest; ?>;
-    let i = 0;
 
     function buildTest(){
         const output = [];        
@@ -50,13 +75,15 @@
 
             // add this question and its answers to the output
             output.push(
-            `<div class="question"> ${currentQuestion.question} </div>
-            <div class="answers"> ${answers.join('')} </div>`
+            `<div class="qa">
+            <div class="question"> ${currentQuestion.question} </div>
+            <div class="answers"> ${answers.join('')} </div>
+            </div>`
             );
             
         }
         );
-        quizContainer.innerHTML = output;
+        quizContainer.innerHTML = output.join('');
         
         // finally combine our output list into one string of HTML and put it on the page
     }
@@ -81,7 +108,7 @@
             numCorrect++;
 
             // color the answers green
-            answerContainers[questionNumber].style.color = 'lightgreen';
+            answerContainers[questionNumber].style.color = 'darkgreen';
             }
             // if answer is wrong or blank
             else{
@@ -91,7 +118,8 @@
         });
 
         // show number of correct answers out of total
-        resultsContainer.innerHTML = `${numCorrect} õige(t) ${myQuestions.length}-st`;
+        var protsent = (numCorrect / myQuestions.length) * 100;
+        resultsContainer.innerHTML = `Teie tulemus: ${numCorrect} õiget ${myQuestions.length}-st, ${protsent}%`;
 }
 
     buildTest();
