@@ -12,11 +12,11 @@ Kasutatud on Projekti käigus HTML, CSS, Javascript ja PHP-d.
 
 # Mida me kasutasime tarkvara loomiseks?
 * [Figma](https://www.figma.com/file/TfZOgzt2RTxyZuPq2Wanio/projket-5?node-id=1%3A2) - Veebilehe disainimine
-* [Github](https://www.github.com/HenrysHub/projekt-5/) - Kasutame GitHubi ülesande lisamiseks ja haldamiseks.
-* [Microsoft Teams](https://teams.microsoft.com/) - Suhtlemine ning info jagamine.
-* [Visual Studio](https://code.visualstudio.com/) - Koodi kirjutamine.
-* [Toggl](https://www.toggl.com/) - Aja jälgimine.
-* [Gimp](https://www.gimp.org/) - Logo disainimine.
+* [Github](https://www.github.com/HenrysHub/projekt-5/) - Kasutame GitHubi ülesande lisamiseks ja haldamiseks
+* [Microsoft Teams](https://teams.microsoft.com/) - Suhtlemine ning info jagamine
+* [Visual Studio](https://code.visualstudio.com/) - Koodi kirjutamine
+* [Toggl](https://www.toggl.com/) - Aja jälgimine
+* [Gimp](https://www.gimp.org/) - Logo disainimine
 
 # Tiim
 * Henry Lehtsi
